@@ -1,0 +1,37 @@
+[I 2023-05-10 11:59:31.211 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-05-10 11:59:31.215 ServerApp] Package jupyter_server_fileid took 0.0028s to import
+[I 2023-05-10 11:59:31.220 ServerApp] Package jupyter_server_terminals took 0.0050s to import
+[I 2023-05-10 11:59:31.244 ServerApp] Package jupyter_server_ydoc took 0.0235s to import
+[I 2023-05-10 11:59:31.245 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-05-10 11:59:31.247 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-05-10 11:59:31.247 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-05-10 11:59:31.247 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-05-10 11:59:31.253 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-05-10 11:59:31.257 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-05-10 11:59:31.262 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-05-10 11:59:31.267 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-05-10 11:59:31.269 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-10 11:59:31.272 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2023-05-10 11:59:31.272 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-05-10 11:59:31.273 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-05-10 11:59:31.492 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-05-10 11:59:31.524 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-05-10 11:59:31.524 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-05-10 11:59:31.524 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/ubuntu/mlproject
+[I 2023-05-10 11:59:31.524 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/ubuntu/.local/share/jupyter/file_id_manager.db
+[I 2023-05-10 11:59:31.528 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-05-10 11:59:31.528 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-05-10 11:59:31.546 FileIdExtension] Attached event listeners.
+[I 2023-05-10 11:59:31.547 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-05-10 11:59:31.548 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-05-10 11:59:31.548 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-05-10 11:59:31.549 LabApp] JupyterLab extension loaded from /home/ubuntu/MLPRO/lib/python3.8/site-packages/jupyterlab
+[I 2023-05-10 11:59:31.549 LabApp] JupyterLab application directory is /home/ubuntu/MLPRO/share/jupyter/lab
+[I 2023-05-10 11:59:31.553 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-05-10 11:59:31.556 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-05-10 11:59:31.557 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-05-10 11:59:31.557 ServerApp] Serving notebooks from local directory: /home/ubuntu/mlproject
+[I 2023-05-10 11:59:31.557 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-05-10 11:59:31.557 ServerApp] http://ip-172-31-28-13:8889/lab
+[I 2023-05-10 11:59:31.557 ServerApp]     http://127.0.0.1:8889/lab
+[I 2023-05-10 11:59:31.557 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
